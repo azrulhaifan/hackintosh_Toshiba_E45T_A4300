@@ -1,0 +1,138 @@
+6:137  1:995  Found BIOS RSDP at F0000
+6:137  0:000  Printing ACPI tables from RSDP F0000 ...
+6:137  0:000   F0000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+6:137  0:000    (Xsdt: DB21B090, Rsdt: DB21B028)
+6:137  0:000    DB21B090: 'XSDT', 'TOSCPL00', Rev: 1, Len: 164
+6:137  0:000    DB21B028: 'RSDT', 'TOSCPL00', Rev: 1, Len: 100
+6:137  0:000    Tables in Xsdt: 16
+6:137  0:000    0. DB232238: 'FACP', 'TOSCPL00', Rev: 5, Len: 268
+6:137  0:000        (Dsdt: DB21B1C8, Facs: DB8A3080, XDsdt: DB21B1C8, XFacs: 0)
+6:137  0:000        DB21B1C8: 'DSDT', 'TOSCPL00', Rev: 2, Len: 94317
+6:140  0:002        DB8A3080: 'FACS', Ver: 2, Len: 64
+6:140  0:000    1. DB232348: 'APIC', 'TOSCPL00', Rev: 3, Len: 114
+6:140  0:000    2. DB2323C0: 'FPDT', 'TOSCPL00', Rev: 1, Len: 68
+6:140  0:000    3. DB232408: 'MSDM', 'TOSCPL00', Rev: 3, Len: 85
+6:140  0:000    4. DB232460: 'SSDT', 'sensrhub', Rev: 1, Len: 512
+6:140  0:000    5. DB232660: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+6:140  0:000    6. DB232BA0: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+6:140  0:000    7. DB233678: 'MCFG', 'TOSCPL00', Rev: 1, Len: 60
+6:140  0:000    8. DB2336B8: 'SLIC', 'TOSCPL00', Rev: 1, Len: 374
+6:140  0:000    9. DB233830: 'HPET', 'TOSCPL00', Rev: 1, Len: 56
+6:140  0:000    10. DB233868: 'SSDT', 'SataTabl', Rev: 1, Len: 701
+6:140  0:000    11. DB233B28: 'SSDT', 'SaSsdt ', Rev: 1, Len: 13458
+6:140  0:000    12. DB236FC0: 'DMAR', 'HSW ', Rev: 1, Len: 136
+6:140  0:000    13. DB237048: 'CSRT', 'HSWULT-R', Rev: 1, Len: 196
+6:140  0:000    14. DB237110: 'SSDT', 'IsctTabl', Rev: 1, Len: 1557
+6:140  0:000    15. DB237728: 'BGRT', 'TOSCPL00', Rev: 0, Len: 56
+6:140  0:000    Tables in Rsdt: 16
+6:140  0:000    0. DB21B140: 'FACP', 'TOSCPL00', Rev: 2, Len: 132
+6:140  0:000        (Dsdt: DB21B1C8, Facs: DB8A3040)
+6:140  0:000        DB21B1C8: 'DSDT', 'TOSCPL00', Rev: 2, Len: 94317
+6:142  0:002        DB8A3040: 'FACS', Ver: 0, Len: 64
+6:142  0:000    1. DB232348: 'APIC', 'TOSCPL00', Rev: 3, Len: 114
+6:142  0:000    2. DB2323C0: 'FPDT', 'TOSCPL00', Rev: 1, Len: 68
+6:142  0:000    3. DB232408: 'MSDM', 'TOSCPL00', Rev: 3, Len: 85
+6:142  0:000    4. DB232460: 'SSDT', 'sensrhub', Rev: 1, Len: 512
+6:142  0:000    5. DB232660: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+6:142  0:000    6. DB232BA0: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+6:142  0:000    7. DB233678: 'MCFG', 'TOSCPL00', Rev: 1, Len: 60
+6:142  0:000    8. DB2336B8: 'SLIC', 'TOSCPL00', Rev: 1, Len: 374
+6:142  0:000    9. DB233830: 'HPET', 'TOSCPL00', Rev: 1, Len: 56
+6:142  0:000    10. DB233868: 'SSDT', 'SataTabl', Rev: 1, Len: 701
+6:142  0:000    11. DB233B28: 'SSDT', 'SaSsdt ', Rev: 1, Len: 13458
+6:142  0:000    12. DB236FC0: 'DMAR', 'HSW ', Rev: 1, Len: 136
+6:142  0:000    13. DB237048: 'CSRT', 'HSWULT-R', Rev: 1, Len: 196
+6:142  0:000    14. DB237110: 'SSDT', 'IsctTabl', Rev: 1, Len: 1557
+6:142  0:000    15. DB237728: 'BGRT', 'TOSCPL00', Rev: 0, Len: 56
+6:142  0:000  Found UEFI Acpi 2.0 RSDP at DB21B000
+6:142  0:000  Saving ACPI tables from RSDP DB21B000 to EFI\CLOVER\ACPI\origin ...
+6:142  0:000   DB21B000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+6:142  0:000    (Xsdt: DB21B090, Rsdt: DB21B028)
+6:142  0:000    DB21B090: 'XSDT', 'TOSCPL00', Rev: 1, Len: 164
+6:142  0:000    DB21B028: 'RSDT', 'TOSCPL00', Rev: 1, Len: 100
+6:142  0:000    Tables in Xsdt: 16
+6:142  0:000    0. DB232238: 'FACP', 'TOSCPL00', Rev: 5, Len: 268
+6:142  0:000        (Dsdt: DB21B1C8, Facs: DB8A3080, XDsdt: DB21B1C8, XFacs: 0)
+6:142  0:000        DB21B1C8: 'DSDT', 'TOSCPL00', Rev: 2, Len: 94317
+6:144  0:002        DB8A3080: 'FACS', Ver: 2, Len: 64
+6:144  0:000    1. DB232348: 'APIC', 'TOSCPL00', Rev: 3, Len: 114
+6:144  0:000    2. DB2323C0: 'FPDT', 'TOSCPL00', Rev: 1, Len: 68
+6:144  0:000    3. DB232408: 'MSDM', 'TOSCPL00', Rev: 3, Len: 85
+6:144  0:000    4. DB232460: 'SSDT', 'sensrhub', Rev: 1, Len: 512
+6:144  0:000    5. DB232660: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+6:144  0:000    6. DB232BA0: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+6:144  0:000    7. DB233678: 'MCFG', 'TOSCPL00', Rev: 1, Len: 60
+6:144  0:000    8. DB2336B8: 'SLIC', 'TOSCPL00', Rev: 1, Len: 374
+6:144  0:000    9. DB233830: 'HPET', 'TOSCPL00', Rev: 1, Len: 56
+6:144  0:000    10. DB233868: 'SSDT', 'SataTabl', Rev: 1, Len: 701
+6:144  0:000    11. DB233B28: 'SSDT', 'SaSsdt ', Rev: 1, Len: 13458
+6:144  0:000    12. DB236FC0: 'DMAR', 'HSW ', Rev: 1, Len: 136
+6:144  0:000    13. DB237048: 'CSRT', 'HSWULT-R', Rev: 1, Len: 196
+6:144  0:000    14. DB237110: 'SSDT', 'IsctTabl', Rev: 1, Len: 1557
+6:144  0:000    15. DB237728: 'BGRT', 'TOSCPL00', Rev: 0, Len: 56
+6:144  0:000    Tables in Rsdt: 16
+6:144  0:000    0. DB21B140: 'FACP', 'TOSCPL00', Rev: 2, Len: 132
+6:144  0:000        (Dsdt: DB21B1C8, Facs: DB8A3040)
+6:144  0:000        DB21B1C8: 'DSDT', 'TOSCPL00', Rev: 2, Len: 94317
+6:146  0:002        DB8A3040: 'FACS', Ver: 0, Len: 64
+6:146  0:000    1. DB232348: 'APIC', 'TOSCPL00', Rev: 3, Len: 114
+6:146  0:000    2. DB2323C0: 'FPDT', 'TOSCPL00', Rev: 1, Len: 68
+6:146  0:000    3. DB232408: 'MSDM', 'TOSCPL00', Rev: 3, Len: 85
+6:146  0:000    4. DB232460: 'SSDT', 'sensrhub', Rev: 1, Len: 512
+6:146  0:000    5. DB232660: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+6:146  0:000    6. DB232BA0: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+6:146  0:000    7. DB233678: 'MCFG', 'TOSCPL00', Rev: 1, Len: 60
+6:146  0:000    8. DB2336B8: 'SLIC', 'TOSCPL00', Rev: 1, Len: 374
+6:146  0:000    9. DB233830: 'HPET', 'TOSCPL00', Rev: 1, Len: 56
+6:146  0:000    10. DB233868: 'SSDT', 'SataTabl', Rev: 1, Len: 701
+6:146  0:000    11. DB233B28: 'SSDT', 'SaSsdt ', Rev: 1, Len: 13458
+6:146  0:000    12. DB236FC0: 'DMAR', 'HSW ', Rev: 1, Len: 136
+6:146  0:000    13. DB237048: 'CSRT', 'HSWULT-R', Rev: 1, Len: 196
+6:146  0:000    14. DB237110: 'SSDT', 'IsctTabl', Rev: 1, Len: 1557
+6:146  0:000    15. DB237728: 'BGRT', 'TOSCPL00', Rev: 0, Len: 56
+6:146  0:000  Found UEFI Acpi 1.0 RSDP at DB21B000
+6:146  0:000  Printing ACPI tables from RSDP DB21B000 ...
+6:146  0:000   DB21B000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+6:146  0:000    (Xsdt: DB21B090, Rsdt: DB21B028)
+6:146  0:000    DB21B090: 'XSDT', 'TOSCPL00', Rev: 1, Len: 164
+6:146  0:000    DB21B028: 'RSDT', 'TOSCPL00', Rev: 1, Len: 100
+6:146  0:000    Tables in Xsdt: 16
+6:146  0:000    0. DB232238: 'FACP', 'TOSCPL00', Rev: 5, Len: 268
+6:146  0:000        (Dsdt: DB21B1C8, Facs: DB8A3080, XDsdt: DB21B1C8, XFacs: 0)
+6:146  0:000        DB21B1C8: 'DSDT', 'TOSCPL00', Rev: 2, Len: 94317
+6:148  0:002        DB8A3080: 'FACS', Ver: 2, Len: 64
+6:148  0:000    1. DB232348: 'APIC', 'TOSCPL00', Rev: 3, Len: 114
+6:148  0:000    2. DB2323C0: 'FPDT', 'TOSCPL00', Rev: 1, Len: 68
+6:148  0:000    3. DB232408: 'MSDM', 'TOSCPL00', Rev: 3, Len: 85
+6:148  0:000    4. DB232460: 'SSDT', 'sensrhub', Rev: 1, Len: 512
+6:148  0:000    5. DB232660: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+6:148  0:000    6. DB232BA0: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+6:148  0:000    7. DB233678: 'MCFG', 'TOSCPL00', Rev: 1, Len: 60
+6:148  0:000    8. DB2336B8: 'SLIC', 'TOSCPL00', Rev: 1, Len: 374
+6:148  0:000    9. DB233830: 'HPET', 'TOSCPL00', Rev: 1, Len: 56
+6:148  0:000    10. DB233868: 'SSDT', 'SataTabl', Rev: 1, Len: 701
+6:148  0:000    11. DB233B28: 'SSDT', 'SaSsdt ', Rev: 1, Len: 13458
+6:148  0:000    12. DB236FC0: 'DMAR', 'HSW ', Rev: 1, Len: 136
+6:148  0:000    13. DB237048: 'CSRT', 'HSWULT-R', Rev: 1, Len: 196
+6:148  0:000    14. DB237110: 'SSDT', 'IsctTabl', Rev: 1, Len: 1557
+6:148  0:000    15. DB237728: 'BGRT', 'TOSCPL00', Rev: 0, Len: 56
+6:148  0:000    Tables in Rsdt: 16
+6:148  0:000    0. DB21B140: 'FACP', 'TOSCPL00', Rev: 2, Len: 132
+6:148  0:000        (Dsdt: DB21B1C8, Facs: DB8A3040)
+6:148  0:000        DB21B1C8: 'DSDT', 'TOSCPL00', Rev: 2, Len: 94317
+6:150  0:002        DB8A3040: 'FACS', Ver: 0, Len: 64
+6:150  0:000    1. DB232348: 'APIC', 'TOSCPL00', Rev: 3, Len: 114
+6:150  0:000    2. DB2323C0: 'FPDT', 'TOSCPL00', Rev: 1, Len: 68
+6:150  0:000    3. DB232408: 'MSDM', 'TOSCPL00', Rev: 3, Len: 85
+6:150  0:000    4. DB232460: 'SSDT', 'sensrhub', Rev: 1, Len: 512
+6:150  0:000    5. DB232660: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+6:150  0:000    6. DB232BA0: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+6:150  0:000    7. DB233678: 'MCFG', 'TOSCPL00', Rev: 1, Len: 60
+6:150  0:000    8. DB2336B8: 'SLIC', 'TOSCPL00', Rev: 1, Len: 374
+6:150  0:000    9. DB233830: 'HPET', 'TOSCPL00', Rev: 1, Len: 56
+6:150  0:000    10. DB233868: 'SSDT', 'SataTabl', Rev: 1, Len: 701
+6:150  0:000    11. DB233B28: 'SSDT', 'SaSsdt ', Rev: 1, Len: 13458
+6:150  0:000    12. DB236FC0: 'DMAR', 'HSW ', Rev: 1, Len: 136
+6:150  0:000    13. DB237048: 'CSRT', 'HSWULT-R', Rev: 1, Len: 196
+6:150  0:000    14. DB237110: 'SSDT', 'IsctTabl', Rev: 1, Len: 1557
+6:150  0:000    15. DB237728: 'BGRT', 'TOSCPL00', Rev: 0, Len: 56
